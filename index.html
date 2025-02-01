@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClothCare - Donate Clothes, Spread Love</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-tshirt"></i>
+            <span>ClothCare</span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="about.html">
+                <button type="button" >
+                About </button></a>
+
+            <a href="#donate"></a>
+            <a href="donation.html">
+                <button type="button" >
+                Donate </button></a>
+
+            <a href="#contact"></a>
+            <a href="contact.html">
+                <button type="button" >
+                Contact </button></a>
+         
+            <a href="log.html">
+                <button type="button" >
+                Login </button></a>
+
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Donate Clothes, Spread Love</h1>
+            <p>Your unused clothes can bring warmth and dignity to those in need</p>
+          
+            <button class="cta-button" onclick="location.href='#donate'">Donate Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+     
+   <!-- <section id="about" class="about">
+        <div class="about-content">
+            <h2>Making a Difference</h2>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <i class="fas fa-users"></i>
+                    <h3>10,000+</h3>
+                    <p>People Helped</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>50,000+</h3>
+                    <p>Clothes Donated</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>1,000+</h3>
+                    <p>Active Donors</p>
+                </div>
+            </div>
+            <p class="about-text">
+                At ClothCare, we believe in the power of giving. Every piece of clothing donated helps someone in need feel more confident and dignified. Join us in making a difference in your community.
+            </p>
+        </div>
+    </section>
+-->
+
+
+    <!-- Donation Form Section -->
+   <!-- <section id="donate" class="donate">
+        <h2>Make a Donation</h2>
+        <form id="donationForm" class="donation-form">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label>Type of Clothes</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" value="shirts"> Shirts</label>
+                    <label><input type="checkbox" value="pants"> Pants</label>
+                    <label><input type="checkbox" value="jackets"> Jackets</label>
+                    <label><input type="checkbox" value="shoes"> Shoes</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="condition">Condition</label>
+                <select id="condition" required>
+                    <option value="">Select condition</option>
+                    <option value="new">New</option>
+                    <option value="likeNew">Like New</option>
+                    <option value="good">Good</option>
+                    <option value="fair">Fair</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Special Instructions</label>
+                <textarea id="comments"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Donation</button>
+        </form>
+    </section>
+-->
+    <!-- Contact Section -->
+     <!--
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="contactName">Name</label>
+                <input type="text" id="contactName" required>
+            </div>
+            <div class="form-group">
+                <label for="contactEmail">Email</label>
+                <input type="email" id="contactEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ClothCare</h3>
+                <p>Making a difference, one donation at a time.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#donate">Donate</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ClothCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+     <!--
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+                <p class="form-footer">
+                    Don't have an account? <a href="#" id="showSignup">Sign up</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the Terms and Conditions</label>
+                </div>
+                <button type="submit" class="submit-btn">Sign Up</button>
+                <p class="form-footer">
+                    Already have an account? <a href="#" id="showLogin">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+-->
+
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
